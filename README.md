@@ -305,11 +305,19 @@ This drop in new or retained customers suggests a decrease in growth rate or inc
 
 
 ### **Data Visualization** ###
+---
 Attached here is the Power BI dashboard created to present the findings of this project 
 ![Power bi Image 2](https://github.com/user-attachments/assets/c55edc28-21eb-412b-8c72-4699b42c463b)
 
 
-
+### ** Recommendations** ###
+---
+#### Based on the findings of the analysis, the following recommendations are made####
+1. Tailor marketing to regional preferences, promoting upgrades where possible.
+2. Analyze price sensitivity, especially in regions where Basic plans dominate, to support upselling.
+3. Gather feedback from Premium and Standard subscribers to understand cancellation causes and improve retention.
+4. Focus on regional customization and customer retention across tiers, with strategies like exclusive perks for higher-tier subscribers and targeted promotions to encourage Basic upgrades.
+5. Strengthen retention efforts for Premium, boost active subscriptions, and replicate successful regional strategies to drive consistent growth across all regions.
 
 
 
