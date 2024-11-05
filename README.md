@@ -316,27 +316,27 @@ Thus, the results obtained implied that cancellations in the South, West, and No
 - Active Revenue: $37.2 million (55% of total revenue).
 - Canceled Revenue: $30.3 million (45% of total revenue).
 
-##### *Key Insights Across All Plans* #####
+##### *Key Insights Across All Plans*
 1. Higher Retention in Basic Plan: The Basic plan leads in retention, with 70% of its revenue from active subscribers, indicating stronger customer loyalty.
 2. High Cancellation Rates in Premium and Standard: Both plans show high cancellation rates, with 60% of their revenue from canceled subscribers, suggesting that customers may not perceive enough value to justify continued subscriptions.
 
 
 #### **J. Customer Count Analysis by Year**
 ---
-##### *Key Findings:* #####
+##### *Key Findings:*
 - In 2022, the subscription service attracted 20,275 customers, accounting for about 60% of the total customer base.
 - In 2023, the customer count decreased to 13,512 (around 40% of total customers).
 This drop in new or retained customers suggests a decrease in growth rate or increased churn in 2023. It highlights a need to investigate potential causes for the decline, such as market saturation, customer dissatisfaction, increased competition, or economic factors.
 
 
 
-### **Data Visualization** ###
+### **Data Visualization**
 ---
 Attached here is the Power BI dashboard created to present the findings of this project 
 ![Power bi Image 2](https://github.com/user-attachments/assets/c55edc28-21eb-412b-8c72-4699b42c463b)
 
 
-### **Recommendations** ###
+### **Recommendations**
 ---
 #### Based on the findings of the analysis, the following recommendations are made####
 1. Tailor marketing to regional preferences, promoting upgrades where possible.
@@ -347,12 +347,13 @@ Attached here is the Power BI dashboard created to present the findings of this 
 
 
 
-### **Limitations** ###
+### **Limitations**
 ---
 I have to remove duplicate entries/values from the data because it would have affected the accuracy of my conclusions from the analysis. 
 
 
-### **References** ###
+### **References**
+---
 1. LITA videos on Youtube [www.youtube.com/@theincubatornnigeria]
 
 
