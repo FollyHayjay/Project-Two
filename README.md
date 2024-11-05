@@ -47,11 +47,7 @@ hence, the following questions are answered about the data:
 - What is the total number of active and canceled subscriptions?
 
 
-The skills showcased in this project are duplicate handling, summarising using pivot tables, chart building, data querying, and presentation.  
-The report is presented in two main parts. The first part presents the outcomes of the data analysis using Microsoft Excel, and the second part presents the data analysis done using SQL. Attached to this report is a dashboard created by Power BI.
-
-
-## The Report 
+### Data Analysis 
 In this section, the results of the analysis of the sales performance of a Retail store are presented. The analysis was done using Microsoft Excel and SQL, and Power BI, was used to produce an interactive dashboard that highlights the findings of the analysis. 
 
 ### Part One: Analysing Using Microsoft Excel Tool
