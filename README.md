@@ -39,7 +39,7 @@ The goal of this analysis is to explore sales data to uncover key insights such 
 
 ### **Data Sources**
 ---
-The main data source for this analysis is customerdata.xls, titled LITA Capstone Sales Data, provided by the Incubator as part of the assessment for the LITA training program I completed.
+The main data source for this analysis is customerdata.xls, titled LITA Capstone Dataset, provided by the Incubator as part of the assessment for the LITA training program I completed.
 
 
 ### **Tools Used**
