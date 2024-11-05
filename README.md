@@ -15,9 +15,10 @@ The goal of this analysis is to explore sales data to uncover key insights such 
 The primary data source used in the analysis is Salesdata.xls titled LITA Capstone Sales Data, which was provided by the Incubator for assessment in the LITA training I underwent. 
 
 ### Tools Used
-The customer segmentation data was analysed using three major analysis tools which are Microsoft Excel for data cleaning and analysis;
-SQL (Structured Query Language) was used to write queries that further extract insights from the customer segmentation for subscription service data; and
-Power BI, which is used to create a dashboard that presents the outcomes of the analysis. 
+The customer segmentation data was analysed using three major analysis tools which are:
+- Microsoft Excel for data cleaning and analysis;
+- SQL (Structured Query Language) was used to write queries that further extract insights from the customer segmentation for subscription service data; and
+- Power BI, which is used to create a dashboard that presents the outcomes of the analysis. 
 
 
 The skills showcased in this project are duplicate handling, summarising using pivot tables, chart building, data querying, and presentation.  
