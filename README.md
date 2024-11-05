@@ -304,6 +304,12 @@ This drop in new or retained customers suggests a decrease in growth rate or inc
 
 
 
+### **Data Visualization** ###
+Attached here is the Power BI dashboard created to present the findings of this project 
+![Power bi Image 2](https://github.com/user-attachments/assets/c55edc28-21eb-412b-8c72-4699b42c463b)
+
+
+
 
 
 
