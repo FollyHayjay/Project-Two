@@ -55,7 +55,115 @@ hence, the following questions are answered about the data:
 
 ### **Data Analysis**
 ---
-In this section, the results of the analysis of the customer data are presented. The analysis was done using Pivot tables which were used to summarize total sales by product, region, month and other interesting reports were also created. Excel formulas were also used to calculate metrics such as average sales per product and total revenue by region, and other interesting key insights are also presented. Additionally, queries were written to attain additional insights about the data using SQL and Power BI was used to produce an interactive dashboard that highlights the findings of the analysis.
+In this section, queries written to extract key insights into about the data are presented:
+```SQL
+Create database LITA_Project2
+
+select * from [dbo].[LITAProject2]
+
+------- Total number of customers from each region -------
+select Count(CustomerID) as [Number of Customers], 
+	Region from [dbo].[LITAProject2]
+Group by Region
+	Order by [Number of Customers] Desc;
+
+Create database LITA_Project2
+
+select * from [dbo].[LITAProject2]
+
+------- Total number of customers from each region -------
+select Count(CustomerID) as [Number of Customers], 
+	Region from [dbo].[LITAProject2]
+Group by Region
+	Order by [Number of Customers] Desc;
+
+
+
+------ Most popular subscription type by the number of customers ------
+Select Top 1
+    SubscriptionType,
+    Count(CustomerID) as [Number of Customer Subscribed]
+From 
+    [dbo].[LITAProject2]
+Group by 
+    SubscriptionType
+Order by 
+    SubscriptionType Desc;
+
+
+
+---- Customers who canceled their subscription within 6 months ----------
+Select CustomerID, CustomerName, SubscriptionStart, SubscriptionEnd
+From [dbo].[LITAProject2]
+where Canceled = 1
+and DateDiff(Month, SubscriptionStart, SubscriptionEnd) <= 6;
+
+
+
+------- Average subscription duration for all customers ------
+Select
+	AVG(SubsDuration) as [Average of Subscription Duration] 
+	from [dbo].[LITAProject2]
+		
+
+
+----------- Customers with subscriptions longer than 12 months ---------
+Select CustomerID, CustomerName, SubscriptionStart, SubscriptionEnd
+From [dbo].[LITAProject2]
+where 
+	DateDiff(Month, SubscriptionStart, SubscriptionEnd) >12;
+
+
+
+--------- Total revenue by subscription type ----------
+select Sum(Revenue) as [Total Revenue by Subscription Type], 
+	SubscriptionType from [dbo].[LITAProject2]
+Group by SubscriptionType
+	Order by [Total Revenue by Subscription Type] Desc;
+
+
+
+--------- Top 3 regions by subscription cancellations----------
+Select Top 3
+    Region,
+    count(Canceled) as [Top Subscription Cancellations]
+From 
+    [dbo].[LITAProject2]
+	Where Canceled = 1
+Group by 
+    Region
+Order by 
+    [Top Subscription Cancellations] Desc;
+
+
+------ Total number of active and canceled subscriptions---------
+Select 
+    Canceled,
+    Count(*) as [Subscription Count]
+From [dbo].[LITAProject2]
+Group by Canceled;
+
+Select 
+    Case 
+        when Canceled = 0 Then 'Active' 
+        when Canceled = 1 Then 'Canceled' 
+    end as SubscriptionStatus,
+    count (*) as [Subscription Count]
+From 
+	[dbo].[LITAProject2]
+Group by Canceled;
+```
+
+```Excel
+Number of Canceled Customers=COUNTIF(G2:G33788,"TRUE")
+Total Number of Customers==COUNTIF(B2:B33788,"*")
+Churn Rate=
+Average Subscription Day=AVERAGE(I2:I33788)
+```
+
+
+
+the results of the analysis of the customer data are presented. The analysis was done using Pivot tables which were used to summarize total sales by product, region, month and other interesting reports were also created. Excel formulas were also used to calculate metrics such as average sales per product and total revenue by region, and other interesting key insights are also presented. Additionally, queries were written to attain additional insights about the data using SQL and Power BI was used to produce an interactive dashboard that highlights the findings of the analysis.
 
 
 
