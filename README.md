@@ -7,3 +7,10 @@ The report is presented in two main parts. The first part presents the outcomes 
 
 ## 1.2 Objectives
 The goal of this analysis is to explore sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends.
+
+## 1.3 The Report 
+In this section, the results of the analysis of the sales performance of a Retail store are presented. The analysis was done using Microsoft Excel and SQL, and Power BI, was used to produce an interactive dashboard that highlights the findings of the analysis. 
+
+### 1.3.1 Microsoft Excel: Part One
+In this section, pivot tables were used to summarize total sales by product, region, month and other interesting reports were also created. Additionally, Excel formulas were used to calculate metrics such as average sales per product and total revenue by region, and other interesting key insights are also presented.
+
