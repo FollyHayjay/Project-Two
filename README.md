@@ -2,7 +2,33 @@
 
 ## **Project Title: Customer Segmentation for a Subscription Service**
 
-### **Introduction**
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Objectives](#objectives)
+- [Data Sources](#data-sources)
+- [Tools Used](#tools-used)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Findings of the Analysis](#findings-of-the-analysis)
+  - [A. Revenue Distribution by Region](#a-revenue-distribution-by-region)
+  - [B. Revenue by Region and Subscription Type](#b-revenue-by-region-and-subscription-type)
+  - [C. Report on Revenue by Subscription Type](#c-report-on-revenue-by-subscription-type)
+  - [D. Report on Cancellation Rates by Subscription Type](#d-report-on-cancellation-rates-by-subscription-type)
+  - [E. Report on Customer Count by Subscription Type](#e-report-on-customer-count-by-subscription-type)
+  - [F. Report on Customer Distribution by Region](#f-report-on-customer-distribution-by-region)
+  - [G. Report on Revenue Distribution by Year and Subscription Type](#g-report-on-revenue-distribution-by-year-and-subscription-type)
+  - [H. Findings on Regional Revenue and Cancellations](#h-findings-on-regional-revenue-and-cancellations)
+  - [I. Report on Active vs. Canceled Subscriptions by Plan](#i-report-on-active-vs-canceled-subscriptions-by-plan)
+  - [J. Customer Count Analysis by Year](#j-customer-count-analysis-by-year)
+- [Data Visualization](#data-visualization)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+- [References](#references)
+
+
+### **Project Overview**
 ---
 In this project, the customer segmentation for a subscription service is analysed. However, before the analysis, the customer segmentation dataset was subjected to data cleaning and preparation to ensure no missing or incorrect values in critical columns like subscription type and dates, revenue, and canceled. 
 
@@ -163,14 +189,14 @@ Average Subscription Day=AVERAGE(I2:I33788)
 
 
 
-### **Findings of the Analysis** ###
+### **Findings of the Analysis**
 ---
 Here the results of the analysis of the customer data are presented. The following results are obtained:
 
 
 #### **A. Revenue Distribution by Region** ####
 ---
-##### *Key Observations* #####
+##### *Key Observations*
 - East: This region leads the group with the highest revenue of 16,958,763.00, representing 25.12% of the total revenue. The East’s strong performance suggests it is a major contributor to overall sales.
 - South: Coming in a close second, the South region contributed 16,899,064.00, accounting for 25.02% of the total revenue. The South’s performance is nearly identical to the East, indicating a highly competitive revenue contribution.
 - West: The West generated 16,864,376.00, representing 24.98% of total revenue. Although slightly behind the South and East regions, it is still a solid performer.
@@ -178,9 +204,9 @@ Here the results of the analysis of the customer data are presented. The followi
 
 
 
-#### **B. Revenue by Region and Subscription Type** ####
+#### **B. Revenue by Region and Subscription Type**
 ---
-##### *Key insights reveal regional subscription preferences:* ##### 
+##### *Key insights reveal regional subscription preferences:*
 - The East and North favour Basic subscriptions, suggesting price sensitivity or preference for entry-level services. 
 - In the South, Premium subscriptions dominate, likely due to a higher demand for advanced features, boosting revenue per customer.
 - The West region prefers Standard subscriptions, indicating a balance between price and features.
@@ -189,7 +215,7 @@ This result suggests that while preferences vary, the company’s subscription o
 
 
 
-#### **C. Report on Revenue by Subscription Type** ####
+#### **C. Report on Revenue by Subscription Type**
 ---
 ##### *Key Observations* #####
 - Basic Subscription: The Basic subscription is the highest-grossing type, generating 33,776,735.00, which is nearly 50% of the total revenue. This indicates that the Basic tier is highly popular among customers. This suggests that the Basic tier is the most popular and likely attracts the largest portion of the customer base, possibly due to its affordability or simplicity.
@@ -211,7 +237,7 @@ This result suggests that while preferences vary, the company’s subscription o
 
 
 
-#### **E. Report on Customer Count by Subscription Type** ####
+#### **E. Report on Customer Count by Subscription Type**
 ---
 ##### *Key insights reveal trends in subscription popularity and upsell potential:* #####
 - Basic Subscription: The Basic subscription type has the highest customer count, with 16,921 customers. This represents 50% of the total customer base, suggesting it is the most popular, representing 50% of the customer base and generating the highest revenue. This likely reflects its affordability and appeal as a simpler service option.
@@ -222,27 +248,27 @@ This result suggests that while preferences vary, the company’s subscription o
 
 
 
-#### **F. Report on Customer Distribution by Region** ####
+#### **F. Report on Customer Distribution by Region**
 ---
-##### *Key Observations* #####
+##### *Key Observations*
 The customer base is evenly distributed across regions, each contributing roughly 25% to the total:
 - East Region: Leads with 8,488 customers, slightly ahead of others, indicating a marginally stronger market presence.
 - South Region: Close behind with 8,446 customers.
 - North Region: Has 8,433 customers, nearly matching the South.
 - West Region: Slightly smaller at 8,420 customers, yet very close to other regions.
-##### *Insights:* #####
+##### *Insights:*
 - Even Customer Distribution: Each region has a similar customer count, with the East-leading by only 68 customers over the West, indicating balanced geographic reach.
 - Broad Market Appeal: The nearly equal distribution suggests the subscription service appeals broadly across all regions.
 
 
 
 
-#### **G. Report on Revenue Distribution by Year and Subscription Type** ####
+#### **G. Report on Revenue Distribution by Year and Subscription Type**
 ---
-##### *Key Findings of Revenue Trends* #####
+##### *Key Findings of Revenue Trends*
 - 2022 saw the highest revenue, with a total of 40.5 million generated, split between active and canceled subscriptions across Basic, Premium, and Standard plans.
 - In 2023, revenue dropped to 27 million, representing a decrease in total revenue. This drop could suggest factors such as a rise in cancellations, fewer new customers, or lower subscription fees.
-##### *Insights on Subscription Type and Status* #####
+##### *Insights on Subscription Type and Status*
 - Basic Plan Dominance: The Basic subscription plan consistently generates the highest revenue, contributing over 16.9 million in 2022 and 13.4 million in 2023, even across both active and canceled subscriptions.
 - Premium Plan Performance: The Premium plan saw strong performance in 2022, with 10.1 million in revenue coming from cancelled subscriptions alone, suggesting those who subscribed for this plan cancelled their subscription at the end of the year. Therefore, there is a noticeable decrease in revenue generated in 2023, with Premium generating 6.7 million from active customers.
 - Standard Plan: The Standard plan contributes the least to total revenue, but its revenue remains stable. In 2022, it generated 10 million total (both active and canceled), and in 2023, around 13.5 million.
@@ -252,40 +278,40 @@ Revenue from Active vs. Canceled Subscriptions
 
 
 
-#### **H. Findings on Regional Revenue and Cancellations** ####
+#### **H. Findings on Regional Revenue and Cancellations**
 ---
-##### *Key Findings* #####
+##### *Key Findings*
 - Revenue from canceling vs. retaining customers is similarly split across regions, except the East, where all customers have retained their subscriptions.
 - South: 10.03% of total revenue from retained customers (3,382) and 14.99% from canceled customers (5,064).
 - West: 10.00% from retained (3,376) and 14.97% from canceled customers (5,044).
 - North: 9.96% from retained (3,366) and 14.94% from canceled customers (5,067).
-Thus, the results obtained implied that cancellations in South, West, and North regions significantly impact revenue sustainability, indicating a need to understand and address drivers behind customer cancellations for long-term stability.
+Thus, the results obtained implied that cancellations in the South, West, and North regions significantly impact revenue sustainability, indicating a need to understand and address drivers behind customer cancellations for long-term stability.
 
 
 
-##### **I. Report on Active vs. Canceled Subscriptions by Plan** ####
+##### **I. Report on Active vs. Canceled Subscriptions by Plan**
 ---
-##### *Key Findings: Active vs. Canceled Subscriptions by Plan* ####
+##### *Key Findings: Active vs. Canceled Subscriptions by Plan*
 
-- ##### *Basic Subscription Plan* #####
+- ##### *Basic Subscription Plan*
   - Active vs. Canceled:
     - Active subscriptions generated $23.7 million, representing 70% of the plan’s total revenue.
     - Canceled subscriptions contributed $10 million, accounting for the remaining 30%.
-  - **Insight**: The Basic plan demonstrates strong retention, with most revenue from active subscribers. However, the 30% cancellation rate suggests room for improvement in retaining long-term customers.
+  - **Insight**: The Basic plan demonstrates strong retention, with the most revenue from active subscribers. However, the 30% cancellation rate suggests room for improvement in retaining long-term customers.
 
-- ##### *Premium Subscription Plan* #####
+- ##### *Premium Subscription Plan*
   - Active vs. Canceled:
     - Active subscriptions contributed $6.7 million (40% of revenue).
     - Canceled subscriptions accounted for $10.1 million (60% of revenue).
   - **Insight**: With 60% of revenue from canceled subscriptions, the Premium plan shows higher churn. This may indicate that customers find limited long-term value in the higher-tier offering.
 
-- ##### *Standard Subscription Plan* #####
+- ##### *Standard Subscription Plan*
   - Active vs. Canceled:
     - Active subscriptions contributed $6.75 million (40% of revenue).
     - Canceled subscriptions totalled $10.1 million (60% of revenue).
   - Insight: Similar to the Premium plan, the Standard plan has a high cancellation rate, suggesting customers may not find sufficient ongoing value in this tier.
 
-##### **Overall Performance of All Plans** #####
+##### **Overall Performance of All Plans**
 ---
 - Active Revenue: $37.2 million (55% of total revenue).
 - Canceled Revenue: $30.3 million (45% of total revenue).
@@ -295,7 +321,7 @@ Thus, the results obtained implied that cancellations in South, West, and North 
 2. High Cancellation Rates in Premium and Standard: Both plans show high cancellation rates, with 60% of their revenue from canceled subscribers, suggesting that customers may not perceive enough value to justify continued subscriptions.
 
 
-#### **Customer Count Analysis by Year** ####
+#### **J. Customer Count Analysis by Year**
 ---
 ##### *Key Findings:* #####
 - In 2022, the subscription service attracted 20,275 customers, accounting for about 60% of the total customer base.
