@@ -310,7 +310,7 @@ Attached here is the Power BI dashboard created to present the findings of this 
 ![Power bi Image 2](https://github.com/user-attachments/assets/c55edc28-21eb-412b-8c72-4699b42c463b)
 
 
-### ** Recommendations** ###
+### **Recommendations** ###
 ---
 #### Based on the findings of the analysis, the following recommendations are made####
 1. Tailor marketing to regional preferences, promoting upgrades where possible.
@@ -321,8 +321,13 @@ Attached here is the Power BI dashboard created to present the findings of this 
 
 
 
+### **Limitations** ###
+---
+I have to remove duplicate entries/values from the data because it would have affected the accuracy of my conclusions from the analysis. 
 
 
+### **References** ###
+1. LITA videos on Youtube [www.youtube.com/@theincubatornnigeria]
 
 
 
