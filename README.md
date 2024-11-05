@@ -17,6 +17,7 @@ The primary data source used in the analysis is Salesdata.xls titled LITA Capsto
 ### Tools Used
 The customer segmentation data was analysed using three major analysis tools which are:
 - Microsoft Excel for data cleaning and analysis;
+   1. 
 - SQL (Structured Query Language) was used to write queries that further extract insights from the customer segmentation for subscription service data; and
 - Power BI, which is used to create a dashboard that presents the outcomes of the analysis. 
 
