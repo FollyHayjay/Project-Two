@@ -1,22 +1,22 @@
-# Project Two
+# **Project Two**
 
-## Project Title: Customer Segmentation for a Subscription Service
+## **Project Title: Customer Segmentation for a Subscription Service**
 
-### Introduction
+### **Introduction**
 ---
 In this project, the customer segmentation for a subscription service is analysed. However, before the analysis, the customer segmentation dataset was subjected to data cleaning and preparation to ensure no missing or incorrect values in critical columns like subscription type and dates, revenue, and canceled. 
 
 
-### Objectives
+### **Objectives**
 ---
 The goal of this analysis is to explore sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends.
 
-### Data Sources
+### **Data Sources**
 ---
 The main data source for this analysis is customerdata.xls, titled LITA Capstone Sales Data, provided by the Incubator as part of the assessment for the LITA training program I completed.
 
 
-### Tools Used
+### **Tools Used**
 ---
 The customer segmentation data was analysed using three major analysis tools which are:
 - Microsoft Excel [Download Here] (https://www.microsoft.com)
@@ -27,7 +27,7 @@ The customer segmentation data was analysed using three major analysis tools whi
    1. Is used to create an interesting story-telling dashboard that presents the outcomes of the analysis. 
 
 
-### Data Cleaning and Preparation
+### **Data Cleaning and Preparation**
 ---
 In the initial phase of cleaning and preparation of the data, the following steps are taken after the loading of the data:
 - The data type is checked to ensure they are correctly formatted. 
@@ -35,7 +35,7 @@ In the initial phase of cleaning and preparation of the data, the following step
 - Duplicate values were checked and removed from the data while in the Excel environment to obtain unique entries in the dataset to attain the right information from the provided data.
 
 
-### Exploratory Data Analysis
+### **Exploratory Data Analysis**
 ---
 Exploratory Data Analysis (EDA) is an approach for analyzing datasets to summarize their main characteristics, often with visual techniques. This process typically involves using summary statistics (such as mean, median, and standard deviation) and visualizations (like histograms, scatter plots, and box plots) to thoroughly examine the data. In this project, pivot table summaries are used to identify data types, missing values, outliers, and errors. This approach also provides insights into customer segmentation and behaviour, helping uncover key patterns in subscription service usage.
 hence, the following questions are answered about the data:
@@ -53,7 +53,7 @@ hence, the following questions are answered about the data:
 
 
 
-### Data Analysis
+### **Data Analysis**
 ---
 In this section, the results of the analysis of the sales performance of a Retail store are presented. The analysis was done using Microsoft Excel and SQL, and Power BI, was used to produce an interactive dashboard that highlights the findings of the analysis. Pivot tables were used to summarize total sales by product, region, month and other interesting reports were also created. Additionally, Excel formulas were used to calculate metrics such as average sales per product and total revenue by region, and other interesting key insights are also presented. 
 
