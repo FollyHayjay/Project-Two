@@ -16,12 +16,12 @@ The primary data source used in the analysis is Salesdata.xls titled LITA Capsto
 
 ### Tools Used
 The customer segmentation data was analysed using three major analysis tools which are:
-- Microsoft Excel;
+- Microsoft Excel [Download Here] (https://microsoft.com)
    1. For Data Cleaning
    2. For Analysis
 - SQL (Structured Query Language) was used to write queries that further extract insights from the customer segmentation for subscription service data; and
 - Power BI
-   1. To create an interesting story=telling dashboard that presents the outcomes of the analysis. 
+   1. To create an interesting story-telling dashboard that presents the outcomes of the analysis. 
 
 
 The skills showcased in this project are duplicate handling, summarising using pivot tables, chart building, data querying, and presentation.  
