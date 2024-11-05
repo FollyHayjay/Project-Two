@@ -1,3 +1,5 @@
 # Customer Segmentation for a Subscription Service
 ## Introduction
-This project analyzes customer segmentation for a subscription service by examining subscription patterns and customer behaviours.
+In this project, the customer segmentation for a subscription service is analysed. However, before the analysis, the customer segmentation dataset was subjected to data cleaning and preparation to ensure no missing or incorrect values in critical columns like subscription type and dates, revenue, and canceled. Also, the data type is checked to ensure they are correctly formatted before further analysis. Importantly, duplicate values were removed from the dataset while in the Excel environment to have unique entries.
+After this exploration, the customer segmentation data was analysed using three major analysis tools: Excel, SQL, and Power BI, which is used to create a dashboard that presents the outcomes of the analysis. The skills showcased in this project are duplicate handling, summarising using pivot tables, chart building, data querying, and presentation.  
+The report is presented in two main parts. The first part presents the outcomes of the data analysis using Microsoft Excel, and the second part presents the data analysis done using SQL. Attached to this report is a dashboard created by Power BI.
